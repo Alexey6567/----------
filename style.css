@@ -1,0 +1,29 @@
+.none {
+    display: none;
+    line-height: 1.5;
+}
+
+.red {
+    border: 1px solid red;
+}
+.gren {
+    border: 1px solid green;
+}
+
+.blue {
+    border: 1px solid blue;
+}
+
+.red-text {
+    color: red
+}
+
+.green-text {
+    color:green
+}
+
+.app {
+    font-size: 2rem;
+    font-weight: bolt;
+    color: rgb(225, 0, 255);
+}
