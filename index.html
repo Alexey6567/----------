@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatipale" content="IE=edge" />
-        <meta name="viewport" content="width=devace-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
         <title>BITCOIN OBMENNICK</title> 
         <link rel="stylesheet" href="./style.css" />
     </head>
@@ -14,7 +14,7 @@
         </header>
          <hr>
 <!-- Пример с выбором элементв, селекторы, CSS классы-->
-         <div class="dom-example">
+         <div class="dom-example none">
             <h1 class="heading-1" id="heading-1">ЗАГОЛОВОК 1</h1>
             <p>
                 TEKST  1, jhih;qhvhoirehvffjuhu.getHours
@@ -69,6 +69,7 @@
                 <ul id="list">
                     <li>Посмотреть вебинар</li>
                     <li>Написать конспект</li>
+                    <li><button>Batton</button></li>
                     <li>Повторить код с урока</li>
                 </ul>
         </div>
@@ -80,15 +81,29 @@
         </div>
 
  <!-- Таймер setInterval -->
-        <div class="dom-example none">...
+        <div class="dom-example none">
+
 
 
 
 
         </div>
 
-        <div class="simple-todo none">...
+        <!--ToDo список задач -->
 
+        <div class="simple-todo">
+            <div class="tasks-wrapper">
+                <h2>Список задач</h2>
+                <ul id="todo-list">
+                    <li>Посмотреть вебинар</li>
+                    <li>Написать конспект</li>
+                    <li>Повторить код с урока</li>
+                </ul>
+            </div>
+            <form id="todo-form">
+                <input id="todo-input" type="text" placeholder="Ведите название задачи">
+                <button type="submit">Добавить задачу</button>
+            </form>
 
 
 
